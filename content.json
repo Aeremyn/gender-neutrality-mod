@@ -58,12 +58,18 @@
 	         "GrandpaStory.cs.12038": "When that happens, my child, you'll be ready for this gift.",
              "TV.cs.13128": "Ah... I sense that a new viewer has joined us. A young person from... Stardew Valley? Welcome, welcome!",
              "TV.cs.13130": "Ah... I sense that a new viewer has joined us. A young person from... Stardew Valley? Welcome, welcome!",	 
-             "Utility.cs.5371": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you married!$h",
+             "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if they'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and %spouse in the bonds of marriage.",
+			 "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if they'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and %spouse in the bonds of marriage.",
+			 "Utility.cs.5371": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you married!$h",
              "Utility.cs.5373": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you married!$h",
              "Utility.cs.5375": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you married!$h",
              "Utility.cs.5377": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you married!$h",
              "Farmer.cs.2023": "Farmer",
-             "Farmer.cs.2024": "Farmer"       
+             "Farmer.cs.2024": "Farmer",
+			 "ItemDeliveryQuest.cs.13560": "Looking for a cute young person to bring me {0}.       -Haley",
+			 "ItemDeliveryQuest.cs.13563": "Looking for a cute young person to bring me {0}.       -Haley",
+			 "ItemDeliveryQuest.cs.13571": "Looking for a cutie to bring me {0}.  (^_-)      -Sam",
+			 "ItemDeliveryQuest.cs.13574": "Looking for a cutie to bring me {0}.  (^_-)      -Sam"
                      },
 		  "Enabled": "{{FixDialogues}}"		  
        },
@@ -91,7 +97,7 @@
           "Action": "EditData",
           "Target": "Data/Events/AnimalShop",
           "Entries": {
-             "92/e 91/i 78/t 900 1700": "jaunty/13 17/farmer 13 19 0 Marnie 13 14 2/move farmer 0 -1 0/removeQuest 21/emote Marnie 16/speed Marnie 4/move Marnie 0 -1 2/speed Marnie 4/move Marnie 2 0 2/speed Marnie 4/move Marnie 0 3 2/move Marnie -2 0 2/pause 300/speak Marnie \"Oh! You brought the cave carrot! Thank you so much, Mx. @.$h^Oh! You brought the cave carrot! Thank you so much, Mx. @.$h\"/pause 500/move farmer 0 -1 1/faceDirection farmer 1/pause 500/playSound woodyStep/addObject 14 17 78 true/showFrame 35/pause 500/showFrame 6/pause 400/faceDirection farmer 1/move Marnie 1 0 2/emote Marnie 32/speak Marnie \"This looks great... I almost want to eat it myself!$h#$b#...almost.\"/faceDirection farmer 1/pause 600/speak Marnie \"I hope it wasn't too much trouble... I really do appreciate it.\"/pause 300/removeItem 78/removeObject 14 17/pause 400/friendship Marnie 100/end dialogue Marnie \"Thanks again for helping me out.$h#$e#...and my goats say 'thanks' too.\""
+			 "92/e 91/i 78/t 900 1700": "jaunty/13 17/farmer 13 19 0 Marnie 13 14 2/move farmer 0 -1 0/removeQuest 21/emote Marnie 16/speed Marnie 4/move Marnie 0 -1 2/speed Marnie 4/move Marnie 2 0 2/speed Marnie 4/move Marnie 0 3 2/move Marnie -2 0 2/pause 300/speak Marnie \"Oh! You brought the cave carrot! Thank you so much, Mx. @.$h^Oh! You brought the cave carrot! Thank you so much, Mx. @.$h\"/pause 500/move farmer 0 -1 1/faceDirection farmer 1/pause 500/playSound woodyStep/addObject 14 17 78/showFrame 35/pause 500/showFrame 6/pause 400/faceDirection farmer 1/move Marnie 1 0 2/emote Marnie 32/speak Marnie \"This looks great... I almost want to eat it myself!$h#$b#...almost.\"/faceDirection farmer 1/pause 600/speak Marnie \"I hope it wasn't too much trouble... I really do appreciate it.\"/pause 300/removeItem 78/removeObject 14 17/pause 400/friendship Marnie 100/end dialogue Marnie \"Thanks again for helping me out.$h#$e#...and my goats say 'thanks' too.\""
 		             },
 		  "Enabled": "{{FixDialogues}}"
 	   },
@@ -99,7 +105,7 @@
           "Action": "EditData",
           "Target": "Data/Events/Beach",
           "Entries": {
-             "739330/t 600 1710/Hn spring_2_1": "ocean/-1000 -1000/farmer 28 35 1 Willy 44 35 1/removeQuest 13/addMailReceived NOQUEST_13/skippable/animate Willy false true 250 28 29 30 31/viewport 44 35 true/move farmer 7 0 1/playSound seagulls/move farmer 7 0 1/pause 500/playSound seagulls/pause 1000/playSound seagulls/speak Willy \"Ahoy there, kid.$u^Ahoy there, kid.$u#$b#Heard there was a newcomer in town... Good to finally meet ya.$u\"/pause 500/playSound seagulls/pause 1000/stopAnimation Willy/playSound dwop/faceDirection Willy 2 true/pause 50/faceDirection Willy 3/pause 1000/speak Willy \"Ah... I'm still tryin' to unwind from a month out on the salty seas...$h#$b#It was a big haul! I sold a lot of good fish.#$b#Finally saved enough to buy me a new rod.$h\"/move Willy -1 0 3/pause 1000/speak Willy \"Here, I want you to have my old fishing rod.$h#$b#It's important to me that the art o' fishing stays alive. And hey, maybe you'll buy somethin' from the shop once in a while.$h\"/pause 1000/playSound seagulls/pause 500/faceDirection farmer 2/itemAboveHead rod/pause 3300/awardFestivalPrize rod/faceDirection farmer 2/pause 1000/playSound seagulls/move Willy 0 1 2/pause 1000/showFrame Willy 24/pause 1000/speak Willy \"There's good water here in the valley. All kinds o' fish.\"/pause 1000/faceDirection Willy 3/speak Willy \"Oh yeah. My shop's back open now, so come by if you need supplies.$h#$b#I'll also buy anything you catch.#$b#'If it smells, it sells'. Heh heh. That's what my ol' Pappy used to say, anyway.$h\"/pause 500/playSound seagulls/pause 500/move farmer 0 1 2/pause 1000/pause 500/animate Willy false true 250 28 29 30 31/viewport move 1 0 5500/pause 1500/playSound seagulls/pause 1500/playSound seagulls/pause 2000/end position 42 36",
+             "739330/t 600 1710/*n spring_2_1": "ocean/-1000 -1000/farmer 28 35 1 Willy 44 35 1/removeQuest 13/addMailReceived NOQUEST_13/skippable/animate Willy false true 250 28 29 30 31/viewport 44 35 true/move farmer 7 0 1/playSound seagulls/move farmer 7 0 1/pause 500/playSound seagulls/pause 1000/playSound seagulls/speak Willy \"Ahoy there, kid.$u^Ahoy there, kid.$u#$b#Heard there was a newcomer in town... Good to finally meet ya.$u\"/pause 500/playSound seagulls/pause 1000/stopAnimation Willy/playSound dwop/faceDirection Willy 2 true/pause 50/faceDirection Willy 3/pause 1000/speak Willy \"Ah... I'm still tryin' to unwind from a month out on the salty seas...$h#$b#It was a big haul! I sold a lot of good fish.#$b#Finally saved enough to buy me a new rod.$h\"/move Willy -1 0 3/pause 1000/speak Willy \"Here, I want you to have my old fishing rod.$h#$b#It's important to me that the art o' fishing stays alive. And hey, maybe you'll buy somethin' from the shop once in a while.$h\"/pause 1000/playSound seagulls/pause 500/faceDirection farmer 2/itemAboveHead rod/pause 3300/awardFestivalPrize rod/faceDirection farmer 2/pause 1000/playSound seagulls/move Willy 0 1 2/pause 1000/showFrame Willy 24/pause 1000/speak Willy \"There's good water here in the valley. All kinds o' fish.\"/pause 1000/faceDirection Willy 3/speak Willy \"Oh yeah. My shop's back open now, so come by if you need supplies.$h#$b#I'll also buy anything you catch.#$b#'If it smells, it sells'. Heh heh. That's what my ol' Pappy used to say, anyway.$h\"/pause 500/playSound seagulls/pause 500/move farmer 0 1 2/pause 1000/pause 500/animate Willy false true 250 28 29 30 31/viewport move 1 0 5500/pause 1500/playSound seagulls/pause 1500/playSound seagulls/pause 2000/end position 42 36",
              "711130/t 600 1710/f Willy 1500": "ocean/30 34/farmer 27 35 1 Willy 30 34 2 Gus -10 -10 0/skippable/addConversationTopic willyCrabs/showFrame Willy 24/move farmer 3 0 0/showFrame Willy 0/pause 800/speak Willy \"Ah... it's a good thing you turned up, kid.^Ah... It's a good thing you turned up, kid.#$b#I've got a... a bit of a problem I could use a hand with...\"/faceDirection Willy 3/faceDirection Willy 0/pause 1000/faceDirection Willy 3 true/pause 100/faceDirection Willy 2/speak Willy \"Er... It'd be best if I just showed ya...\"/pause 600/faceDirection Willy 3 true/pause 100/faceDirection Willy 0/speak Willy \"Take a deep breath, now.\"/pause 300/playSound doorClose/warp Willy -100 -100/move farmer 0 -1 0/pause 500/playSound doorClose/warp farmer -100 -100/fade/viewport -1000 -1000/changeLocation FishShop/specificTemporarySprite willyCrabExperiment/warp Willy 5 7/faceDirection Willy 0/playMusic ragtime/pause 500/viewport 5 7 true/pause 5000/warp farmer 5 9/playSound doorClose/pause 100/jump farmer/pause 1000/emote farmer 16/faceDirection Willy 3 true/pause 100/faceDirection Willy 2/speak Willy \"As you can see...#$b#And smell... heh...#$b#The old girls 'ran wild' last night... heh...$h#$b#My experiment needs a little work...\"/move farmer 0 -1 0/move farmer 2 0 1/emote farmer 56/warp Gus 5 9/playSound doorClose/pause 100/jump Gus/pause 1000/speak Gus \"Hooo~... Back at it again, huh Willy?$h\"/textAboveHead Willy \"Aye...\"/move Gus 0 -1 3/move Gus -2 0 3/pause 1000/speak Gus \"They look fresh all right...\"/faceDirection Willy 3/speak Willy \"Aye... These are the finest, meatiest crabs you'll ever set yer eyes on.$h#$b#They be a little too feisty, though...$s\"/pause 1000/emote Gus 40/pause 500/jump Gus/pause 1000/speak Gus \"I'll take the whole lot!$h#$b#With a discount for the extra labor, of course...\"/pause 2000/move farmer 1 0 0 true/move Gus -1 0 0 false/move farmer 0 -1 0 true/move Gus 0 -1 0 false/faceDirection Willy 0/pause 1000/playSound slimeHit/specificTemporarySprite removeSprite 3/pause 1000/playSound slimeHit/specificTemporarySprite removeSprite 1/pause 1000/playSound fishSlap/specificTemporarySprite removeSprite 2/pause 500/fade/viewport -1000 -1000/pause 1500/speak Gus \"Looks like we got 'em all...\"/pause 1000/speak Willy \"Goodbye, me sweet ladies...$s\"/pause 1000/speak Gus \"Psst... @... Don't tell Willy, but I'll be doing a special on crab cakes at the saloon for the next few days...\"/pause 1000/end position 30 34"
 		             },
 		  "Enabled": "{{FixDialogues}}"
@@ -413,6 +419,15 @@
 	   },
 	   {
           "Action": "EditData",
+          "Target": "Characters/Dialogue/Sam",
+          "Entries": {
+			 "event_snack1": "They're right... That's what happened.$s^They're right... that's what happened.$s",
+			 "event_snack3": "What!? They're lying!$a^What!? They're lying!$a"
+					 },
+		  "Enabled": "{{FixDialogues}}"
+	   },
+	   {
+          "Action": "EditData",
           "Target": "Characters/Dialogue/Vincent",
           "Entries": {
 			 "Tue6": "Can you keep a secret, Mx. @?^Can you keep a secret, Mx. @?$u#$b#I wanna marry Miss Penny when I grow up.#$e#Just don't tell her, okay?$u",
@@ -426,6 +441,45 @@
           "Target": "Characters/Dialogue/Willy",
           "Entries": {
 			 "Mon": "Ahoy there, kid.^Ahoy there, kid.#$b#Looks like decent weather for fishing, eh?"
+					 },
+		  "Enabled": "{{FixDialogues}}"
+	   },	   
+	   {
+          "Action": "EditData",
+          "Target": "Strings/Locations",
+          "Entries": {
+			 "Beach_Mariner_Player_Male": "kid",
+			 "Beach_Mariner_Player_Female": "kid"
+					 },
+		  "Enabled": "{{FixDialogues}}"
+	   },
+	   {
+          "Action": "EditData",
+          "Target": "Strings/SpeechBubbles",
+          "Entries": {
+			 "AdventureGuild_Marlon_Greeting_Male": "They're back!",
+			 "AdventureGuild_Marlon_Greeting_Female": "They're back!"
+					 },
+		  "Enabled": "{{FixDialogues}}"
+	   },
+	   {
+          "Action": "EditData",
+          "Target": "Strings/UI",
+          "Entries": {
+			 "AskedToDance_Male": "{0} has asked you to dance with them. Will you dance with {0}?",
+			 "AskedToDance_Female": "{0} has asked you to dance with them. Will you dance with {0}?",
+			 "AskedToMarry_Male": "{0} has asked you to marry them! Will you accept their offer of marriage?",
+			 "AskedToMarry_Female": "{0} has asked you to marry them! Will you accept their offer of marriage?",
+			 "AskedToHaveBaby_Male": "{0} has asked you to have a baby with them! Do you want to have a baby?",
+			 "AskedToHaveBaby_Female": "{0} has asked you to have a baby with them! Do you want to have a baby?",
+			 "AskedToAdoptBaby_Male": "{0} has asked you to adopt a baby with them! Do you want to have a baby?",
+			 "AskedToAdoptBaby_Female": "{0} has asked you to adopt a baby with them! Do you want to have a baby?",
+			 "AskedToHaveBaby_Rejected_Male": "{0} has decided they'd rather not have a baby at this point.",
+			 "AskedToHaveBaby_Rejected_Female": "{0} has decided they'd rather not have a baby at this point.",
+			 "AskedToAdoptBaby_Rejected_Male": "{0} has decided they'd rather not adopt a baby at the moment.",
+			 "AskedToAdoptBaby_Rejected_Female": "{0} has decided they'd rather not adopt a baby at the moment.",
+			 "GivenGift_Male": "{0} is offering you their {1}. Will you accept it?",
+			 "GivenGift_Female": "{0} is offering you their {1}. Will you accept it?"
 					 },
 		  "Enabled": "{{FixDialogues}}"
 	   }
